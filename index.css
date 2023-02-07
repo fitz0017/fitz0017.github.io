@@ -6,14 +6,20 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-items: space-around;
+    width: 100%;
+    
 }
 
-.container p {
-    margin-left: 70px;
-    text-emphasis: 10;
+.spotlight {
+    height: 300px;
+    width: 300px;
+    display: block;
+    box-shadow: 3px 3px lightgray;
+    padding: 10px;
 }
+
 
 p {
     color: navy;
