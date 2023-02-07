@@ -1,0 +1,21 @@
+.banner {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container p {
+    margin-left: 70px;
+    text-emphasis: 10;
+}
+
+p {
+    color: navy;
+    size: 5em;
+}
