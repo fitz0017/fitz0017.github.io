@@ -5,23 +5,35 @@
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-items: space-around;
     width: 100%;
-    
+    padding: 25px;
+    margin: 25px;
 }
 
 .spotlight {
     height: 300px;
     width: 300px;
     display: block;
-    box-shadow: 3px 3px lightgray;
     padding: 10px;
+    margin: 25px;
+    box-shadow: 3px 3px lightgray;
+}
+
+button:hover {
+    height: 25px;
+    width: 150px;
 }
 
 
 p {
     color: navy;
     size: 5em;
+}
+
+.footer {
+	display: block;
+	background-color: lightblue;
+    text-align: center;
 }
