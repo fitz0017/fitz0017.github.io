@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    justify-items: space-around;
     width: 100%;
     padding: 25px;
     margin: 25px;
 }
+
 
 .spotlight {
     height: 300px;
@@ -27,9 +27,19 @@ button:hover {
 }
 
 
-p {
+h4 {
     color: navy;
-    size: 5em;
+    size: 15em;
+    text-align: left;
+
+}
+
+
+h3 {
+    color: navy;
+    size: 45px;
+    text-align: center;
+
 }
 
 .footer {
