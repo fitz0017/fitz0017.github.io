@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"></link>
+    <script src="./index.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <h4>Under Construction - Portfolio Page</h4>
+    <h3><b>Kevin Fitzpatrick</b></h3>
+
+
+    <div id="container" class="container">
+        <div class="spotlight">
+        <img src="grandcanyon.jpg" style="height:75%;width:95%;">
+        <button style="background-color: lightgray;" type="submit" onclick="alert('thanks for the click!')">Click for thanks</button>
+        </div>
+        <div class="spotlight">
+            <img src="">
+            <h4>River Crossing Riddle</h4>
+        </div>
+        <div class="spotlight">
+            <img src="">
+            <h4>Terraform Posts</h4>
+        </div>
+    </div>
+    <div id="projects">
+
+    </div>
+    <script>
+        const projs = listProjects(projects)
+        const container = document.getElementById('projects')
+        container.innerHTML = projs
+    </script>
+    <div class="footer">Links to additional material coming soon!</div>
+
+</body>
+</html>
