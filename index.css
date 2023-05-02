@@ -2,6 +2,11 @@
     display: block;
 }
 
+.container-lg {
+    display: grid;
+    grid-template: auto;
+}
+
 .container {
     display: flex;
     justify-content: center;
