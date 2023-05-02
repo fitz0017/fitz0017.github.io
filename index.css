@@ -40,7 +40,7 @@ h4 {
 }
 
 
-h3 {
+h3, h2, h8 {
     color: navy;
     size: 45px;
     text-align: center;
