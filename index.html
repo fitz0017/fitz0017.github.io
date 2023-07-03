@@ -16,154 +16,25 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="index.jsx"></script>
     <title>Kevin's Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kevin's Portfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-               Github Quicklinks
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" target="_blank" href="https://github.com/fitz0017/realtime-bus-tracker">Realtime Bus Tracker</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://github.com/fitz0017/PacMen">PacMen</a></li>
-                <li><a class="dropdown-item" target="_blank" href="https://github.com/fitz0017/eyes">Eyes</a></li>
-                <!-- <li><hr class="dropdown-divider" /></li> 
-               <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li> -->
-              </ul>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form> -->
-        </div>
-      </div>
-    </nav>
-    <div class="bg-info text-center callout border">This page under construction, please bear with me as it matures!</div>
-    <div class="card bio" style="margin:auto;">
-      <div class="card-body align-items-center">
-        <h4 class="card-title" style="text-decoration:underline;">Brief Biography</h4>
-        <div style="display: flex;">
-          <p class="card-text align-middle" style="width: 66%;">Thank you for visiting!  I'm Kevin, a husband and father, cloud engineer, and general tinkerer.  I've worked in and with technology all of my adult life, beginning my professional
-            career in the USAF and spending the last 10 years in customer engineering working with enterprise customers.  On this page, I'd like to share some of the work I've done across development, infrastructure as code and other technologies. 
-          
-          <br><br>I've been fortunate to work with customers across multiple industries including manufacturing, healthcare and finance. 
-          
-          <br><br>It is an exciting time in technology and I hope to explore AI in depth and share those projects here as well.</p>
-
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/1WyRFRhi9WU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
-        </div>
-          <h6 class="display-12">Previous work:</h6> 
-          <ul>
-            <li>Cloud Engineer at Google Cloud - where I still work today.</li>
-            <li>Sales Engineer at VMware</li>
-            <li>Sales Engineer at Dell EMC</li>
-            <li>Storage Engineer / Sales Engineer at EMC</li>
-            <li>Linguist / Cryptologist at US Air Force</li> 
-          </ul>
- 
-           
-      
-    <p>For more detailed information about previous work and education, or to get in touch -- see my <a class="link-primary" href="https://www.linkedin.com/in/kevin-fitzpatrick-5225a22/">LinkedIn</a> <a href="https://www.linkedin.com/in/kevin-fitzpatrick-5225a22/"><i class="bi bi-linkedin"></i></a></p>
-    <img src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/a-10.jpg" class="mx-auto d-block img-thumbnail rounded" style="height:350px;width:500px;">
-      </div>
-
-    </div>
-    <div class="text-center">
-      <h5 class="h2 text-center" style="margin-top: 2em;padding-bottom:.5em;" id="projects">Projects</h5>
-      <a target="_blank" href="https://github.com/fitz0017"><h8 class="align-items-center border-bottom"><i class="bi bi-github"></i> @fitz0017 </h8></a>
-    </div>
-
-    <div class="container projects" style="display: flex;margin-top:25px;">
-      
-      <hr>
-      <div class="card" style="margin-left:25px;margin-top: 5px; width: 33%;">
-        <img src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/pacmen.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">PacMen Project</h5>
-          <p class="card-text">PacMen Chaos! App has two buttons. One to add PacMen to the screen in a random location with a random speed, and a second to start the animation and have the PacMen run wild within the window area. PacMen should change facing direction when bouncing off the left and right walls.</p>
-          <a href="https://github.com/fitz0017/PacMen" class="btn btn-primary">Github Repo</a>
-        </div>
-      </div>
-
-      <div class="card" style="margin-left:25px;margin-top: 5px; width: 33%;">
-        <img src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/realtimebus.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Realtime Bus Tracker</h5>
-          <p class="card-text">This tracker will show a standard, red marker for each buses' near-realtime location on a Google Map on the MBTA Bus Route #1. It updates every 15 seconds from the MBTA API. Uses standard light styling and default map settings.</p>
-          <a href="https://github.com/fitz0017/realtime-bus-tracker" class="btn btn-primary">Github Repo</a>
-        </div>
-      </div>
-
-      <div class="card" style="margin-left:25px;margin-top: 5px; width: 33%;">
-        <img src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/eyes.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Eyes Project</h5>
-          <p class="card-text">HTML / JS project showing mouse tracking with pair of eyes in the browser.  Simple CSS, HTML and JS to track mouse movements.</p>
-          <a href="https://github.com/fitz0017/eyes" class="btn btn-primary">Github Repo</a>
-        </div>
-      </div>
-    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <NavBar />
+    <div id="root"></div>
   </body>
 </html>
