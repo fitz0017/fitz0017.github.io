@@ -73,35 +73,35 @@ function App() {
                 >
                   Github Quicklinks
                 </a>
-              </li>
-            </ul>
-            <ul className="dropdown-menu">
-              <li>
-                <a
-                  className="dropdown-item"
-                  target="_blank"
-                  href="https://github.com/fitz0017/realtime-bus-tracker"
-                >
-                  Realtime Bus Tracker
-                </a>
-              </li>
-              <li>
-                <a
-                  className="dropdown-item"
-                  target="_blank"
-                  href="https://github.com/fitz0017/PacMen"
-                >
-                  PacMen
-                </a>
-              </li>
-              <li>
-                <a
-                  className="dropdown-item"
-                  target="_blank"
-                  href="https://github.com/fitz0017/eyes"
-                >
-                  Eyes
-                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      href="https://github.com/fitz0017/realtime-bus-tracker"
+                    >
+                      Realtime Bus Tracker
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      href="https://github.com/fitz0017/PacMen"
+                    >
+                      PacMen
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      href="https://github.com/fitz0017/eyes"
+                    >
+                      Eyes
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
