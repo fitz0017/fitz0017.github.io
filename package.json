@@ -2,7 +2,7 @@
   "name": "mit_portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
