@@ -162,7 +162,7 @@ function App() {
             </a>
           </p>
           <img
-            src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/a-10.jpg"
+            src="https://storage.googleapis.com/cloud-resume-394913/a-10.jpg"
             className="mx-auto d-block img-thumbnail rounded"
             style={{ height: 350, width: 500 }}
           />
@@ -192,7 +192,7 @@ function App() {
           style={{ marginLeft: 25, marginTop: 5, width: "33%" }}
         >
           <img
-            src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/pacmen.png"
+            src="https://storage.googleapis.com/cloud-resume-394913/pacmen.png"
             className="card-img-top"
             alt="..."
           />
@@ -243,7 +243,7 @@ function App() {
           style={{ marginLeft: 25, marginTop: 5, width: "33%" }}
         >
           <img
-            src="https://storage.googleapis.com/cloud-resume-350620_cloudbuild/eyes.png"
+            src="https://storage.googleapis.com/cloud-resume-394913/eyes.png"
             className="card-img-top"
             alt="..."
           />
